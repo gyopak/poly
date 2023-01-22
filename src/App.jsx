@@ -6,6 +6,7 @@ import { toSearchString, useQuery } from './useQuery';
 import { Button } from '@mantine/core';
 import { useNavigate } from 'react-router';
 import Clock from './Clock'
+import Title from './Title'
 
 function App() {
   const [query] = useQuery();
@@ -14,9 +15,7 @@ function App() {
 
   return (
     <div className="App">
-      <div className='Head'>
-        <div className='Title'>poly<span className="Title2">plan</span></div>
-      </div>
+      <Title />
       <Clock />
       <Button onClick={() => navigate(`/schedule?${search}`)} radius="xl" size="xl">
         set

@@ -4,6 +4,7 @@
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
+  margin-top: 5rem;
   /* height: 100vh; */
 }
 

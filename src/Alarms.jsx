@@ -3,6 +3,7 @@ import './Alarms'
 import { toSearchString, useQuery } from './useQuery';
 import { Button } from '@mantine/core';
 import { useNavigate } from 'react-router';
+import Title from './Title';
 
 function Alarms() {
   const [query] = useQuery();
@@ -10,12 +11,10 @@ function Alarms() {
   const search = toSearchString(query);
   return (
     <div className="App">
-      <div className='Head'>
-        <div className='Title'>polyplan</div>
-        <Button onClick={() => navigate(`/?${search}`)} color="#682C0E" radius="xl" size="xl">
+      <Title />
+      <Button onClick={() => navigate(`/?${search}`)} color="#682C0E" radius="xl" size="xl">
           done
         </Button>
-      </div>
     </div>
   )
 }
