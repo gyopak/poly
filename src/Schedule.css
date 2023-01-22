@@ -32,11 +32,9 @@
 
 .mantine-Button-root {
   background-color: #682C0E;
-  margin-bottom: 1rem;
   position: absolute;
-  bottom: 2rem;
+  top: 85vh;
   font-size: 2.5rem;
-  /* padding: 2rem 3rem; */
   font-family: 'Patrick Hand', cursive;
   color: white;
 }

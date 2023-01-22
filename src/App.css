@@ -7,16 +7,6 @@
   height: 5rem;
 }
 
-
-.mantine-Button-root {
-  background-color: #FC8621;
-  margin-bottom: 1rem;
-  position: absolute;
-  bottom: 2rem;
-  font-size: 2.5rem;
-  font-family: 'Patrick Hand', cursive;
-}
-
 .mantine-Button-root:hover {
   background-color: #FC8621;
 }
