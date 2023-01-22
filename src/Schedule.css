@@ -1,0 +1,47 @@
+
+.App {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  /* height: 100vh; */
+}
+
+.Head {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  height: 5rem;
+}
+
+.Title {
+  font-size: 5rem;
+  width: 100vw;
+  text-align: center;
+  color: #FC8621;
+  position: absolute;
+  top: 3rem;
+  left: 0;
+}
+
+.Title2 {
+  color: #682C0E;
+}
+
+.mantine-Button-root {
+  background-color: #682C0E;
+  margin-bottom: 1rem;
+  position: absolute;
+  bottom: 2rem;
+  font-size: 2.5rem;
+  /* padding: 2rem 3rem; */
+  font-family: 'Patrick Hand', cursive;
+  color: white;
+}
+
+.mantine-Button-root:hover {
+  background-color: #C24914;
+  color: white;
+  border-color: transparent;
+}

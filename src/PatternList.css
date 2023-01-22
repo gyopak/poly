@@ -1,0 +1,76 @@
+.List {
+  height: 45rem;
+}
+
+.Subtitle {
+  color: #682C0E; 
+  font-size: 2.5rem;
+  margin-bottom: 3rem;
+}
+
+.ButtonTitle {
+  font-size: 2.5rem;
+  font-family: 'Patrick Hand', cursive;
+  padding: 0.5rem;
+  color: #682C0E;
+  display: flex;
+}
+
+.mantine-Accordion-item {
+  border: 5px solid transparent;
+}
+
+.mantine-Accordion-item[data-active=true] {
+  border: 5px solid #FC8621;
+}
+
+
+.mantine-Accordion-content {
+  padding: 0 0 2rem;
+  display: flex;
+  position: relative;
+}
+
+.mantine-Accordion-chevron {
+  /* margin-left: 1rem;
+  margin-right: 2rem; */
+  display: none;
+}
+
+.mantine-Accordion-label {
+  display: flex;
+}
+
+.ButtonTitleText {
+  margin-top: 0.5rem;
+}
+
+.Ring {
+  margin-right: 2rem;
+  margin-left: 0rem;
+}
+
+.Description {
+  width: 67%;
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  left: 7rem;
+  font-size: 1.6rem;
+  font-family: 'Patrick Hand', cursive;
+  color: #682C0E;
+}
+
+.Hour {
+  font-size: 2.5rem;
+  margin-left: 1rem;
+  margin-top: -0.5rem;
+  color: #C24914;
+  font-family: 'Patrick Hand', cursive;
+}
+
+.HourLabel {
+  font-size: 1.5rem;
+  margin-left: 0.5rem;
+  margin-top: -1rem;
+}
